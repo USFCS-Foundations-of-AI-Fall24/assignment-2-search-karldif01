@@ -78,7 +78,7 @@ Run each of the four algorithms (breadth_first_search, depth_first_search, depth
 on this new problem and count the number of states generated. 
 
 6. **(10 points)** _Sept 15_ An early insight in solving search-based problems was the idea of *problem decomposition*. If a 
-problem can be subdivided into into smaller components that can be solved separately, we can deal with scaling more easily.
+problem can be subdivided into smaller components that can be solved separately, we can deal with scaling more easily.
 
 Modify your search code so that it instead solves three subproblems: moveToSample, removeSample, and returnToCharger.
 You can do this by changing the start state and goal test. How does this change the number of states generated? 

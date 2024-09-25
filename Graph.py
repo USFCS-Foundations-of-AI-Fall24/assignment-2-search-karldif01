@@ -42,4 +42,11 @@ class Graph :
         if src in self.g:
             return self.g[src]
 
+    def __repr__(self):
+        result = []
+        for node, edges in self.g.items():
+            edge_repr = [f"{edge.dest}" for edge in edges]
+            result.append(f"{node}: {' '.join(edge_repr)}")
+        return '\n'.join(result)
+
 
